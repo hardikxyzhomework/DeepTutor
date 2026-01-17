@@ -35,6 +35,7 @@ class EmbeddingProviderManager:
         "jina": JinaEmbeddingAdapter,
         "huggingface": OpenAICompatibleEmbeddingAdapter,
         "google": OpenAICompatibleEmbeddingAdapter,
+        "gemini": OpenAICompatibleEmbeddingAdapter,  # Google Gemini embeddings (OpenAI-compatible)
         "cohere": CohereEmbeddingAdapter,
         "ollama": OllamaEmbeddingAdapter,
         "lm_studio": OpenAICompatibleEmbeddingAdapter,  # LM Studio (OpenAI-compatible)

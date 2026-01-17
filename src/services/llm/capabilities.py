@@ -75,6 +75,13 @@ PROVIDER_CAPABILITIES: dict[str, dict[str, Any]] = {
         "supports_tools": True,
         "system_in_messages": True,
     },
+    # Google Gemini (OpenAI-compatible via Vertex AI or AI Studio)
+    "gemini": {
+        "supports_response_format": True,
+        "supports_streaming": True,
+        "supports_tools": True,
+        "system_in_messages": True,
+    },
     # Together AI
     "together": {
         "supports_response_format": True,

@@ -82,6 +82,7 @@ const PROVIDER_OPTIONS: Record<ConfigType, string[]> = {
     "anthropic",
     "azure_openai",
     "deepseek",
+    "gemini",
     "openrouter",
     // Local providers
     "ollama",
@@ -97,6 +98,7 @@ const PROVIDER_OPTIONS: Record<ConfigType, string[]> = {
     "cohere",
     "huggingface",
     "google",
+    "gemini",
     // Local providers
     "ollama",
     "lm_studio",

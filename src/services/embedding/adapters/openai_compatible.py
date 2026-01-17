@@ -15,6 +15,7 @@ class OpenAICompatibleEmbeddingAdapter(BaseEmbeddingAdapter):
         "text-embedding-3-large": {"default": 3072, "dimensions": [256, 512, 1024, 3072]},
         "text-embedding-3-small": {"default": 1536, "dimensions": [512, 1536]},
         "text-embedding-ada-002": 1536,
+        "gemini-embedding-001": {"default": 3072, "dimensions": [768, 1536, 3072]},
     }
 
     async def embed(self, request: EmbeddingRequest) -> EmbeddingResponse:
